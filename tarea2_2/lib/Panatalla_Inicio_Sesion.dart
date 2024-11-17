@@ -60,6 +60,15 @@ class _EstadoPantallaInicioSesion extends State<PantallaInicioSesion> {
               onPressed: Inicio,
               child: Text("Iniciar Sesion"),
             ),
+            TextButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => PantallaRegistro()),
+                );
+              },
+              child: Text("Registrarse"),
+            ),
           ],
         ),
       ),
