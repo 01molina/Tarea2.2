@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tarea2_2/Pantalla_Inicio.dart';
+import 'package:tarea2_2/Panatalla_Inicio_Sesion.dart';
 
 void main() {
   runApp(MyApp());

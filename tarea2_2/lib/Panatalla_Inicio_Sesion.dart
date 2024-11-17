@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:tarea2_2/Pantalla_Inicio.dart';
+import 'package:tarea2_2/Pantalla_Registro.dart';
 
 class PantallaInicioSesion extends StatefulWidget {
   @override
