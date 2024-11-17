@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tarea2_2/Pantalla_Inicio.dart';
 
 void main() {
   runApp(MyApp());
@@ -11,9 +12,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        appBar: AppBar(),
+      title: 'Aplicacion Inicio de Sesion',
+      theme: ThemeData(
+        primarySwatch: Colors.blueGrey,
       ),
+      home: PantallaInicioSesion(),
     );
   }
 }
